@@ -4,9 +4,9 @@
 
 // Dokumen itu diam, sedangkan viewport (layar) yang bergerak waktu kamu scroll.
 
-// pageYOffset mengukur seberapa jauh layar turun dari atas dokumen.
+// pageYOffset mengukur seberapa jauh layar turun (discroll) dari atas dokumen.
 
-// offsetTop mengukur posisi elemen di dokumen dari atas halaman.
+// offsetTop mengukur posisi elemen di dokumen dari atas dokumen / elemen induknya.
 
 // Maka ketika pageYOffset > offsetTop, layar sudah lewat posisi elemen tersebut → itu yang jadi trigger efek fixed navbar.
 
